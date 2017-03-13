@@ -1,10 +1,10 @@
 ## argument x isa square invertible matrix
-## The function returns a list containing functions to
-##              1. set the matrix
-##              2. get the matrix
-##              3. set the inverse
-##              4. get the inverse
-##         this list is used as an input to cacheSolve()
+## The function returns a list containing four functions which
+##    1) set the matrix
+##    2) get (return) the matrix
+##    3) set the inverse
+##    4) get (return) the inverse
+## this list of functions is used as an input to cacheSolve()
 
 makeCacheMatrix <- function(x = matrix()) {
   i<-NULL #default value of i (inverse) to NULL
